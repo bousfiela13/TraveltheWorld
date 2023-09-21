@@ -1,0 +1,262 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.loremIpsumDolor,
+.trip1Icon {
+  position: relative;
+  width: 455px;
+}
+.trip1Icon {
+  height: 343px;
+  object-fit: cover;
+}
+.loremIpsumDolor {
+  display: inline-block;
+  height: 317px;
+  flex-shrink: 0;
+}
+.frame,
+.trip3 {
+  height: 685px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trip3 {
+  width: 455px;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+}
+.frame {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  width: 1120px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 210px;
+}
+.loremIpsumDolor2,
+.trip2Icon {
+  position: absolute;
+  left: 0;
+  width: 455px;
+}
+.loremIpsumDolor2 {
+  top: 368px;
+  display: inline-block;
+  height: 317px;
+}
+.trip2Icon {
+  top: 0;
+  height: 343px;
+  object-fit: cover;
+}
+.travelTheWorld,
+.trip1,
+.trip2 {
+  position: absolute;
+  top: 186px;
+  left: 665px;
+  width: 455px;
+  height: 685px;
+}
+.travelTheWorld,
+.trip1 {
+  left: 0;
+}
+.travelTheWorld {
+  top: 0;
+  display: inline-block;
+  width: 1120px;
+  height: 215px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame2 {
+  top: 0;
+  left: 0;
+  height: 871px;
+  overflow: hidden;
+  font-size: 140px;
+  font-family: var(--font-just-another-hand);
+}
+.body,
+.frame1,
+.frame2,
+.headerIcon {
+  position: absolute;
+  width: 1120px;
+}
+.frame1 {
+  top: 0;
+  left: 0;
+  height: 871px;
+  overflow: hidden;
+}
+.body,
+.headerIcon {
+  top: 459px;
+  left: 160px;
+  height: 1575px;
+}
+.headerIcon {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 416px;
+  object-fit: cover;
+}
+.blog,
+.contact {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact:active {
+  animation: 2s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.header,
+.menu {
+  position: absolute;
+  top: 0;
+}
+.menu {
+  left: 160px;
+  width: 1120px;
+  height: 75.25px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+.header {
+  text-decoration: none;
+  left: 0;
+  width: 1440px;
+  height: 416px;
+}
+.followMeOn {
+  position: absolute;
+  top: 42px;
+  left: 430px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: relative;
+  width: 68.35px;
+  height: 68.35px;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  width: 85.44px;
+}
+.vectorIcon2 {
+  width: 68.35px;
+  height: 68.38px;
+}
+.vectorParent {
+  position: absolute;
+  top: 146px;
+  left: 544px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.footer,
+.frame5 {
+  position: absolute;
+  height: 360px;
+}
+.footer {
+  top: 0;
+  left: 5px;
+  background-color: var(--color-white);
+  width: 1440px;
+}
+.frame5 {
+  top: 507px;
+  left: 0;
+  width: 1445px;
+  overflow: hidden;
+}
+.loremIpsumDolor4 {
+  position: absolute;
+  top: 165px;
+  left: 160px;
+  display: inline-block;
+  width: 1120px;
+}
+.aboutMe {
+  position: absolute;
+  top: 30px;
+  left: 559px;
+  font-size: 150px;
+  font-family: var(--font-just-another-hand);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about1,
+.frame4 {
+  position: absolute;
+  left: 0;
+}
+.about1 {
+  top: 0;
+  background-color: var(--dark-grey);
+  width: 1440px;
+  height: 508px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.frame4 {
+  top: 2089px;
+  width: 1445px;
+  height: 867px;
+}
+.frame3,
+.frame4,
+.home {
+  overflow: hidden;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1445px;
+  height: 2956px;
+  font-size: 100px;
+  font-family: var(--font-just-another-hand);
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2953px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--dark-grey);
+  font-family: var(--font-open-sans);
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-just-another-hand: "Just Another Hand";
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-31xl: 50px;
+
+  /* Colors */
+  --color-white: #fff;
+  --dark-grey: #3e3e3e;
+
+  /* Gaps */
+  --gap-6xl: 25px;
+}
